@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <title>Class Schedule | Neil</title>
+        
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark text-bg-dark shadow fixed-top">
+
+            <div class="container-md d-flex ms-auto">
+                <a href="#Profile" class="navbar-brand d-flex justify-content-between align-items-center">
+                    <img src="img/favicon.png" alt="logo" width="20" height="20" class="mx-2">
+                    <span class="text-danger h3 align-items-center"></span>
+                </a>
+
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigate" aria-controls="navbarNav" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navigate">
+
+                    <ul class="navbar-nav ms-auto text-center text-sm-start">
+                        <li class="nav-item">
+                            <a href="#Profile" class="nav-link px-3">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#About" class="nav-link px-3">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Managers" class="nav-link px-3">Managers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Classes" class="nav-link px-3">Classes</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- PROFILE -->
+
+        <section id="Profile" class="text-bg-dark py-5">
+            <div class="container-lg py-5">
+
+                <div class="profile-container d-lg-flex flex-md-row justify-content-lg-center align-items-center">
+                    <div class="img-container container justify-content-center">
+                        <img src="img/profile.png" alt="" class="img-profile img-fluid shadow-lg-lg" style="border-radius: 50%;">
+                    </div>
+                    <div class="profile-content text-center text-lg-start py-5 px-3 rounded-2">
+                        <h1 class="mb-3">PROFILE</h1>
+                        <p>I'm a dedicated IT student at USTP, passionate about mastering coding, networking, and system databases to make an
+                        impact in the ever-evolving tech landscape.</p>
+                        <p class="blockquote fw-medium">- NEIL DIME -</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+
+        <section class="bg-about" id="About" class="text-bg-secondary">
+            <div class="container-lg py-5">
+                <h1 class="text-center py-5 text-bg-dark shadow-lg bg-about-custom mb-4">COURSE SUBJECTS</h1>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 ">
+        
+                    <div class="col mb-4">
+                        <div class="card text-bg-light shadow-lg text-center" style="height: 100%;">
+                            <div class="card-header p-4 text-bg-secondary">
+                                <h2 class="fw-bold fs-4">INFORMATION MANAGEMENT</h2>
+                            </div>
+                            <div class="card-body">
+                                <p class="fs-6">2nd Year - 2nd Semester</p>
+                            </div>
+                            <div class="card-footer p-3">
+                                <button class="btn btn-primary d-block w-100 fw-bold"  data-bs-toggle="modal" data-bs-target="#infoManagement">
+                                    <h5 class="m-0">IT221</h5>
+                                </button>
+                            </div>
+
+                            <div class="modal fade" id="infoManagement" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content text-bg-light">
+                                        <div class="modal-header text-bg-secondary">
+                                            <h5 class="modal-title text-center w-100 text-capitalize h3" id="infoModalLabel">Information Management - IT221</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+  
+                                            <p><span class="h5">Wed - </span> 6:00 PM - 9:00 PM/09-304(CITC Lab 4)</p>
+                                            <p><span class="h5">Sat - </span> 4:30 PM - 6:30 PM/09-401(CITC Lec Room)</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="col mb-4">
+                        <div class="card text-bg-dark text-center" style="height: 100%;">
+                            <div class="card-header p-4">
+                                <h2 class="fw-bold fs-4">WEB SYSTEMS AND TECHNOLOGIES</h2>
+                            </div>
+                            <div class="card-body">
+                                <p class="fs-6">2nd Year - 2nd Semester</p>
+                            </div>
+                            <div class="card-footer p-3">
+                                <button class="btn btn-primary d-block w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#webSystems">
+                                    <h5 class="m-0">IT223</h5>
+                                </button>
+                            </div>
+                            
+                            <div class="modal fade" id="webSystems" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content text-bg-light">
+                                        <div class="modal-header text-bg-secondary">
+                                            <h5 class="modal-title text-center w-100 text-capitalize h3" id="infoModalLabel">Web Systems and Technolgies - IT223</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                            
+                                            <p><span class="h5">Sat - </span>1:30 PM - 4:30 PM/09-306(CITC Lab 6)</p>
+                                            <p><span class="h5">Tue - </span> 6:00 PM - 8:00 PM</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    
+                    <div class="col mb-4">
+                        <div class="card text-bg-light shadow-lg text-center" style="height: 100%;">
+                            <div class="card-header p-4 text-bg-secondary">
+                                <h2 class="fw-bold fs-4">SYSTEM INTEGRATION AND ARCHITECTURE</h2>
+                            </div>
+                            <div class="card-body">
+                                <p class="fs-6">2nd Year - 2nd Semester</p>
+                            </div>
+                            <div class="card-footer p-3">
+                                <button class="btn btn-primary d-block w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#SIArchi">
+                                    <h5 class="m-0">IT224</h5>
+                                </button>
+                            </div>
+
+                            <div class="modal fade" id="SIArchi" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content text-bg-light">
+                                        <div class="modal-header text-bg-secondary">
+                                            <h5 class="modal-title text-center w-100 text-capitalize h3" id="infoModalLabel">Systems Integration and Architecture - IT224</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                            
+                                            <p><span class="h5">Thu - </span>7:30 AM - 10:30 AM/09-203(CITC Lab1)</p>
+                                            <p><span class="h5">Mon - </span>4:00 PM - 6:00 PM</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col mb-4">
+                        <div class="card text-bg-dark text-center" style="height: 100%;">
+                            <div class="card-header p-4">
+                                <h2 class="fw-bold fs-4">NETWORKING 1</h2>
+                            </div>
+                            <div class="card-body">
+                                <p class="fs-6">2nd Year - 2nd Semester</p>
+                            </div>
+                            <div class="card-footer p-3">
+                                <button class="btn btn-primary d-block w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#net1">
+                                    <h5 class="m-0">IT222</h5>
+                                </button>
+                            </div>
+
+                            <div class="modal fade" id="net1" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content text-bg-light">
+                                        <div class="modal-header text-bg-secondary">
+                                            <h5 class="modal-title text-center w-100 text-capitalize h3" id="infoModalLabel">Networking 1 - IT222</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                            
+                                            <p><span class="h5">Wed - </span>1:30 PM - 4:30 PM/09-309(Cisco Lab1)</p>
+                                            <p><span class="h5">Tue - </span>11:00 AM - 1:00 PM</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col mb-4">
+                        <div class="card text-bg-light shadow-lg text-center" style="height: 100%;">
+                            <div class="card-header p-4 text-bg-secondary">
+                                <h2 class="fw-bold fs-4">ETHICS</h2>
+                            </div>
+                            <div class="card-body">
+                                <p class="fs-6">2nd Year - 2nd Semester</p>
+                            </div>
+                            <div class="card-footer p-3">
+                                <button class="btn btn-primary d-block w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#ethics">
+                                    <h5 class="m-0">Ethc</h5>
+                                </button>
+                            </div>
+
+                            <div class="modal fade" id="ethics" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content text-bg-light">
+                                        <div class="modal-header text-bg-secondary">
+                                            <h5 class="modal-title text-center w-100 text-capitalize h3" id="infoModalLabel">Ethics - Ethcs
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                            
+                                            <p><span class="h5">Tue - </span>7:30 AM - 9:00 AM</p>
+                                            <p><span class="h5">Fri - </span>7:30 AM - 9:00 AM</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="col mb-4">
+                        <div class="card text-bg-dark text-center" style="height: 100%;">
+                            <div class="card-header p-4">
+                                <h2 class="fw-bold fs-4">LIFE AND WORKS OF JOSE RIZAL</h2>
+                            </div>
+                            <div class="card-body">
+                                <p class="fs-6">2nd Year - 2nd Semester</p>
+                            </div>
+                            <div class="card-footer p-3">
+                                <button class="btn btn-primary d-block w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#rizal">
+                                    <h5 class="m-0">Rizal</h5>
+                                </button>
+                            </div>
+
+                            <div class="modal fade" id="rizal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content text-bg-light">
+                                        <div class="modal-header text-bg-secondary">
+                                            <h5 class="modal-title text-center w-100 text-capitalize h3" id="infoModalLabel">Life and Works of Rizal - Rizal
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                            
+                                            <p><span class="h5">Mon - </span>10:30 AM - 12:00 PM</p>
+                                            <p><span class="h5">Thu - </span>10:30 AM - 12:00 PM</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+
+                    <div class="col mb-4">
+                        <div class="card text-bg-light shadow-lg text-center" style="height: 100%;">
+                            <div class="card-header p-4 text-bg-secondary">
+                                <h2 class="fw-bold fs-4">Physical Activity Towards Health and Fitness 2</h2>
+                            </div>
+                            <div class="card-body">
+                                <p class="fs-6">2nd Year - 2nd Semester</p>
+                            </div>
+                            <div class="card-footer p-3">
+                                <button class="btn btn-primary d-block w-100 fw-bold">
+                                    <h5 class="m-0">PATH FIT4</h5>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Managers -->
+
+        <section id="Managers" class="text-bg-dark">
+            <div class="container py-5">
+
+                <h1 class="text-bg-dark text-center py-5 text-uppercase">Managers</h1>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center pb-5">
+
+                    <div class="col mb-4">
+                        <div class="card text-bg-light rounded-3 shadow-lg">
+
+                            <div class="card-img d-flex p-4 mb-3"  style="height: 100%;">
+                                <img src="img/rachel.jpg" class="img-fluid w-100 align-self-center"  style="border-radius: 50%;">
+                            </div>
+
+                            <div class="card-body text-bg-dark rounded-bottom-3">
+                                <h3 class="text-center">Rachel Shane Omandam</h3>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card text-bg-light rounded-3 shadow-lg">
+
+                            <div class="card-img d-flex p-4 mb-3" style="height: 100%;">
+                                <img src="img/jayc.jpg" class="img-fluid w-100 align-self-center"  style="border-radius: 50%;">
+                            </div>
+
+                            <div class="card-body text-bg-dark rounded-bottom-3">
+                                <h3 class="text-center">Jaycris Arquion</h3>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card text-bg-light rounded-3 shadow-lg">
+
+                            <div class="card-img d-flex p-4 mb-3"  style="height: 100%;">
+                                <img src="img/jolan.jpg" class="img-fluid w-100 align-self-center"  style="border-radius: 50%;">
+                            </div>
+
+                            <div class="card-body text-bg-dark rounded-bottom-3">
+                                <h3 class="text-center">Jolanrey Lake</h3>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+        <section id="Classes" class="bg-classes-custom">
+            <div class="container-fluid d-flex justify-content-center align-items-center">
+                <button class="btn btn-primary p-3 rounded-1 shadow-lg" data-bs-toggle="modal" data-bs-target="#Classrequest">
+                    <h5>Class Request Schedule click HERE!!!</h5>
+                </button>
+        
+               
+
+                <div id="Classrequest" class="modal fade" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header text-bg-dark">
+                                <h5 class="modal-title">Class Schedule Request</h5>
+                                <button class="btn-close text-bg-primary" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Day</th>
+                                                <th>Class Schedule</th>
+                                                <th>Mode of Duty</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Monday</td>
+                                                <td>
+                                                    <p><b>IT224</b> - 10:30 AM - 12:00 PM</p>
+                                                    <p><b>RIZAL</b> - 4:00 PM - 6:00 PM</p>
+                                                </td>
+                                                <td>Rest Day ko maam ... Thank you po!</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td>Tuesday</td>
+                                                <td>
+                                                    <p><b>ETHICS</b> - 7:30 AM - 9:00 AM</p>
+                                                    <p><b>IT222</b> - 11:00 AM - 1:00 PM</p>
+                                                    <p><b>IT224</b> - 6:00 PM - 8:00 PM</p>
+                                                </td>
+                                                <td>Rest Day ko maam ... Thank you po!</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td>Wednesday</td>
+                                                <td>
+                                                    <p><b>IT222</b> - 1:30 PM - 4:30 PM/09-309(Cisco Lab1)</p>
+                                                    <p><b>IT221</b> - 6:00 PM - 9:00 PM/09-304(CITC Lab 4)</p>
+                                                </td>
+                                                <td>OPENER ko maam (5AM - 1 or 2PM)</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td>Thursday</td>
+                                                <td>
+                                                    <p><b>IT224</b> - 7:30 AM - 10:30 AM/09-203(CITC Lab1)</p>
+                                                    <p><b>RIZAL</b> - 10:30 AM - 12:00 PM</p>
+                                                    <p><b>PATHFIT4</b> - 1:00 PM - 3:00 PM</p>
+                                                    
+                                                </td>
+                                                <td>CLOSER ko maam between( 3PM - 11PM)</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td>Friday</td>
+                                                <td>
+                                                    <p><b>ETHICS</b> - 7:30 AM - 9:00 AM</p>
+                                                </td>
+                                                <td>CLOSER or MID ko maam between( 10AM - 11PM)</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td>Saturday</td>
+                                                <td>
+                                                    <p><b>IT223</b> - 1:30 PM - 4:30 PM/09-306(CITC Lab 6)</p>
+                                                    <p><b>IT221</b> - 4:30 PM - 6:30 PM/09-401(CITC Lec Room)</p>
+                                                </td>
+                                                <td>OPENER ko maam between( 5AM - 1PM)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Sunday</td>
+                                                <td>
+                                                    <p>NO CLASS</p>
+                                                </td>
+                                                <td>Any Schedule Available maam</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <h4>Thanks a lot, ma'am, for plotting my schedule.</h4>
+                                    <p>Actual USTP Certificate of Registration: <a href="https://drive.google.com/drive/folders/1-mwnyqqQqqU-SM3cRzk1SU9VWJbcSdOB?usp=sharing">Certificate of Registration</a></p>
+                                    
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+            
+
+
+    <!-- <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+    </body>
+
+</html>

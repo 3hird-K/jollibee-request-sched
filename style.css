@@ -1,0 +1,156 @@
+html{
+	scroll-margin-top: 10rem;
+}
+
+img{
+	max-width: 50%;
+	height: auto;
+	display: block;
+}
+/* 
+ body {
+	margin-top: 40px;
+}  */
+
+/* body::before {
+	content: 'XS';
+	color: red;
+	font-size: 2rem;
+	font-weight: bold;
+	position: fixed;
+	top: 0;
+	right: 0;
+}  */
+
+/* This box class is purely used for explaining how the bootstrap grid system works. */
+/* .box {
+	background-color: lightblue;
+	border: 1px solid blue;
+	min-height: 50px;
+	font-size: 2rem;
+}
+
+@media (min-width: 576px) {
+	body::before {
+		content: 'SM';
+	}
+}
+
+
+@media (min-width: 768px) {
+	body::before {
+		content: 'MD';
+	}
+
+}
+
+
+@media (min-width: 992px) {
+	body::before {
+		content: 'LG';
+	}
+}
+
+@media (min-width: 1200px) {
+	body::before {
+		content: 'XL';
+	}
+}
+
+@media (min-width: 1400px) {
+	body::before {
+		content: 'XXL';
+	}
+} */
+
+
+
+/* custom media queries */
+
+@media (max-width: 992px){
+	.profile-container{
+		padding-block: 2rem;
+		/* background-color: red; */
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-self: center;
+	
+	}
+	.img-container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.img-profile{
+		margin-bottom: -40%;
+		background: linear-gradient(to left, rgba(255, 0, 0, 0.227),rgba(24, 20, 20, 0.318),rgba(24, 20, 20, 0.186),rgba(255, 0, 0, 0.194));
+	}
+
+
+
+}
+
+/* Hover */
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus {
+    filter: brightness(130%);
+    background-color: #343a40;
+}
+
+.navbar-dark .navbar-toggler-icon:hover,
+.navbar-dark .navbar-toggler-icon:focus {
+    background-color: #343a40;
+}
+
+/* Active */
+.navbar-dark .nav-item.active .nav-link {
+    filter: brightness(130%);
+    background-color: #343a40;
+}
+
+
+/* Background Sections Custom */
+
+.bg-about{
+	background-image: url('img/home.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	background-color: rgba(0, 0, 0, 0.226);
+	background-blend-mode: multiply;
+	/* object-fit: cover; */
+
+}
+
+.bg-about-custom{
+	/* background-color: rgba(13, 109, 253, 0.655); */
+	border-radius: 10px 10px 0 0;
+	margin-bottom: 1rem;
+}
+
+.bg-profile-managers{
+	background-color: rgb(255, 26, 26);
+
+}
+
+.bg-classes-custom{
+	display: flex;
+	min-height: 100svh;
+	background-image: url(img/jollFam2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	background-color: rgba(0, 0, 0, 0.226);
+	background-blend-mode: multiply;
+}
+
+/* Overriding Img */
+
+.img-fluid{
+	box-shadow: 0px 0px 5px 1px rgb(1, 1, 1);
+}
+.card{
+	box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+}
+
